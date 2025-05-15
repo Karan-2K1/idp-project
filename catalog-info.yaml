@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-static-site
+  description: Simple static site demo for Port.io
+spec:
+  type: website
+  owner: yourteam
+  lifecycle: experimental
+  repo: https://github.com/Karan-2K1/idp-project.git

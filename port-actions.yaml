@@ -1,0 +1,9 @@
+apiVersion: port.io/v1alpha1
+kind: Action
+metadata:
+  name: open-live-site
+  description: Open the live static site in a new tab
+spec:
+  type: url
+  url: https://github.com/Karan-2K1/idp-project.git
+  icon: external-link-alt
